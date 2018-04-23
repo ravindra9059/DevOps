@@ -1,0 +1,8 @@
+---
+- hosts: appserver
+
+  roles:
+    - ansiblebit.oracle-java
+       
+  vars:
+    oracle_java_set_as_default: yes
